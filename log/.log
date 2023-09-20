@@ -1,0 +1,3 @@
+INFO: 2023/09/18 21:12:24 main.go:25: This is a info log
+WARNING: 2023/09/18 21:12:24 main.go:26: This is a warning log
+ERROR: 2023/09/18 21:12:24 main.go:27: This is a error log
