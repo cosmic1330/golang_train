@@ -6,4 +6,5 @@ use (
 	./互動輸入
 	./utils
 	./test
+	./redis
 )
