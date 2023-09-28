@@ -7,4 +7,5 @@ use (
 	./utils
 	./test
 	./redis
+	./gRPC
 )

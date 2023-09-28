@@ -1,0 +1,20 @@
+syntax = "proto3"; 
+
+option go_package = "/protobuffer";
+//定義Service名稱，
+service SaySomethingService{ 
+  //定義api名稱，傳入參數與回傳值
+    rpc TestRPC (testRequest) returns (testResponse) {}
+}
+
+//傳入參數的spec
+message testRequest {
+    int64  id = 1;  
+}
+
+//回傳值的spec
+message testResponse {
+    string  name = 1;
+    float   heigh = 2;
+    float   weight = 3;
+}
